@@ -4,11 +4,11 @@ After=network.target witness-journal-rdf-projection-service.service emsweb-noteb
 Requires=witness-journal-rdf-projection-service.service emsweb-notebooklm-inference-a2a.service emsweb-notebooklm-inference-artifacts.service emsweb-modern-business-notebook-artifacts.service
 [Service]
 Type=simple
-WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/modern-business-persistent-notebook-enterprise
+WorkingDirectory=/home/emsenn/info/lib/emsenn/services/561-group/services/science-services-section/services/social-services-section/services/business-services-section/services/business-research-services-section/services/business-research-notebook-services-section
 ExecStart=/home/emsenn/.config/nvm/versions/node/v24.13.1/bin/node src/serve-a2a.mjs
 Environment=WITNESS_JOURNAL_RDF_AGENT=http://127.0.0.1:19764/.well-known/agent-card.json
-Environment=MODERN_BUSINESS_NOTEBOOK_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/modern-business-persistent-notebook-enterprise/data
-Environment=MODERN_BUSINESS_NOTEBOOK_EXCHANGE_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/modern-business-persistent-notebook-enterprise/data/artifact-exchange
+Environment=MODERN_BUSINESS_NOTEBOOK_DATA_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/science-services-section/services/social-services-section/services/business-services-section/services/business-research-services-section/services/business-research-notebook-services-section/data
+Environment=MODERN_BUSINESS_NOTEBOOK_EXCHANGE_ROOT=/home/emsenn/info/lib/emsenn/services/561-group/services/science-services-section/services/social-services-section/services/business-services-section/services/business-research-services-section/services/business-research-notebook-services-section/data/artifact-exchange
 Environment=MODERN_BUSINESS_NOTEBOOK_ARTIFACT_BASE_URL=http://127.0.0.1:18452
 Environment=MODERN_BUSINESS_NOTEBOOK_SETTLEMENT_ACCOUNT=eip155:31337:0x171fa73666bc362c53c7d4180bfc233f8d681b49
 Restart=on-failure
@@ -17,8 +17,8 @@ NoNewPrivileges=true
 PrivateTmp=true
 ProtectSystem=strict
 ProtectHome=read-only
-ReadWritePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/modern-business-persistent-notebook-enterprise/data
-ReadOnlyPaths=/home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/modern-business-persistent-notebook-enterprise/data/credentials /home/emsenn/info/lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/modern-business-persistent-notebook-enterprise/data/evm/keystores
+ReadWritePaths=/home/emsenn/info/lib/emsenn/services/561-group/services/science-services-section/services/social-services-section/services/business-services-section/services/business-research-services-section/services/business-research-notebook-services-section/data
+ReadOnlyPaths=/home/emsenn/info/lib/emsenn/services/561-group/services/science-services-section/services/social-services-section/services/business-services-section/services/business-research-services-section/services/business-research-notebook-services-section/data/credentials /home/emsenn/info/lib/emsenn/services/561-group/services/science-services-section/services/social-services-section/services/business-services-section/services/business-research-services-section/services/business-research-notebook-services-section/data/evm/keystores
 RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
 UMask=0077
 [Install]
