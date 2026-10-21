@@ -1,1 +1,1 @@
-{"keys":[{"crv":"Ed25519","x":"oYfJCaqtauQ7V1jBerDZKEmBOm1-BeJoq9Du3VowGfM","kty":"OKP","kid":"modern-business-notebook-explainer-ed25519","alg":"EdDSA","use":"sig"}]}
+{"keys":[{"crv":"Ed25519","x":"gfWU4kBw_hDt2iyyruHSP2_5g6xfUEEn3fcEcb97sSI","kty":"OKP","kid":"modern-business-notebook-explainer-ed25519-2026-10-21","alg":"EdDSA","use":"sig"}]}
