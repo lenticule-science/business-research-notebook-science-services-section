@@ -9,4 +9,4 @@
 
 ---
 
-Executable code of this section (`src/, test/`) lives in [red-cup-engineering/business-research-notebook-science-services-section](https://github.com/red-cup-engineering/business-research-notebook-science-services-section) at the same relative paths; run it with `SECTION_ROOT` pointing at this checkout.
+Executable code of this section (`src/, test/`) lives in [red-cup-engineering/business-research-notebook-engineering-services-section](https://github.com/red-cup-engineering/business-research-notebook-engineering-services-section) at the same relative paths; run it with `SECTION_ROOT` pointing at this checkout.
