@@ -6,3 +6,7 @@
 [![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/lenticule-science/.github/blob/main/GOVERNANCE.md)
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
+
+---
+
+Executable code of this section (`src/, test/`) lives in [red-cup-engineering/business-research-notebook-science-services-section](https://github.com/red-cup-engineering/business-research-notebook-science-services-section) at the same relative paths; run it with `SECTION_ROOT` pointing at this checkout.
