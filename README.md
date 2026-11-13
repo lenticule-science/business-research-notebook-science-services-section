@@ -1,4 +1,4 @@
-# business-research-notebook-services-section
+# business-research-notebook-science-services-section
 
 <!-- 561-group-standards:badges:start -->
 [![Lenticule Science](https://img.shields.io/badge/561%20Group-Lenticule%20Science-5b4b8a)](https://github.com/lenticule-science)
