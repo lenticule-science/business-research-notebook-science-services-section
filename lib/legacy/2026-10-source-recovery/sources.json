@@ -1,0 +1,26 @@
+[
+  {
+    "source": "lenticule-science/business-research-notebook-science-services-section",
+    "ref": "refs/archive/branches/chief-information-officer/sync-20261025",
+    "commit": "7bdbd66dff65881840bfb12ef5149f1401406329",
+    "reviewedAgainst": "d4b543e6729f7e23c81474b4bae4c97ea2cf2d5b",
+    "files": [
+      {
+        "path": "content/deployment/systemd-user/emsweb-modern-business-notebook-artifacts.service",
+        "mode": "100644",
+        "oid": "9b4d5c0f30d850275f3fe190eaa185f5b84b025c",
+        "receiver": "lenticule-science/business-research-notebook-science-services-section",
+        "disposition": "Recovered original source at the listed path",
+        "receivedPath": "lib/legacy/2026-10-source-recovery/lenticule-science/business-research-notebook-science-services-section/content/deployment/systemd-user/emsweb-modern-business-notebook-artifacts.service"
+      },
+      {
+        "path": "content/deployment/systemd-user/emsweb-modern-business-notebook-explainer-a2a.service",
+        "mode": "100644",
+        "oid": "b7babaaf6ff110c4107d0e00be784f475b8e11bf",
+        "receiver": "lenticule-science/business-research-notebook-science-services-section",
+        "disposition": "Recovered original source at the listed path",
+        "receivedPath": "lib/legacy/2026-10-source-recovery/lenticule-science/business-research-notebook-science-services-section/content/deployment/systemd-user/emsweb-modern-business-notebook-explainer-a2a.service"
+      }
+    ]
+  }
+]
